@@ -1,0 +1,90 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://img.freepik.com/premium-vector/clouds-stars-sun-blue-background-childrens-vector-illustration-sky_153074-219.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+}
+.card{
+    width: 90%;
+    max-width: 500px;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    
+    color: white;
+    margin: 100px auto 0;
+    padding: 40px 35px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background-color: aliceblue;
+    padding: 15px 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    height: 60px;
+    width: 60px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.search img{
+    width: 16px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 60px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px ;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.col img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+ .humidity, .wind{
+    font-size: 28px;
+ }
+ 
